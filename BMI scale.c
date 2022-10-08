@@ -47,7 +47,7 @@ int main(){
         BMI_max=24;
         weight_min=BMI_min*pow(height_meter,2);
         weight_max=BMI_max*pow(height_meter,2);
-        printf("Your perfect weight would be within %0.3f KG - %0.3f KG.\nTry to maintain your weight within here.\nThank You :)", weight_min, weight_max);
+        printf("Your perfect weight would be within %0.1f KG - %0.1f KG.\nTry to maintain your weight within here.\nThank You :)", weight_min, weight_max);
     }
     else
     {
